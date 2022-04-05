@@ -4,34 +4,6 @@ const firstName = prompt("Enter your first name:");
 const lastName = prompt("Enter your last namme:");
 alert(`Hello ${firstName} ${lastName}!`)
 
-let a = 2;
-a -= 1;
-a++;
-let b = 8;
-b += 2;
-const c = a + b * b;
-const d = a * b + b;
-const e = a * (b + b);
-const f = a * b / a;
-const g = b / a * a;
-console.log(a, b, c, d, e, f, g);
-
-// output = 2,10, math
-
-const rawPrice = prompt("Enter the Price");
-let vatRate = rawPrice * .206;
-let finalPrice = Number(rawPrice) + Number(vatRate);
-alert(`The final price is ${finalPrice}`)
-
-let number1 = 5;
-let number2 = 3;
-
-number1 = 3
-number2 = 5
-
-console.log(number1); // Should show 3
-console.log(number2); // Should show 5
-
 // Write a program that accepts a day name from the user, then shows the name of the following day. Incorrect inputs must be taken into account.
 
 const day = prompt("What day is it?")
@@ -178,7 +150,6 @@ switch (randomNumber) {
     console.log("Signs point to yes");
     break;
 }
-
 
 // Write a program that creates an array of numbers, then calculates and shows the sum of its values (42 in that case).
 
